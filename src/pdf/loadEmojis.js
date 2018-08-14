@@ -13,7 +13,7 @@ var emojiUrls = null;
 var loadEmojis = function(callback){
 
     if(emojiList==null)
-        emojiList = JSON.parse(fs.readFileSync(__root+'src/data/gitmojis.json')).gitmojis;
+        emojiList = JSON.parse(fs.readFileSync(__root+'src/data/scrumojis.json')).scrumojis;
 
     checkEmojis(function (err, emojisToDownload) {
         if(err) throw err;
@@ -41,7 +41,7 @@ var loadEmojis = function(callback){
         var options = {
             url: 'https://api.github.com/emojis',
             headers: {
-                'User-Agent': 'gitmoji'
+                'User-Agent': 'scrumoji'
             }
         };
 
@@ -54,7 +54,7 @@ var loadEmojis = function(callback){
         });
     }
 
-    // Gets a list from gitmojis.json, of all the emoji icons to download.
+    // Gets a list from scrumojis.json, of all the emoji icons to download.
     function checkEmojis(callback) {
         var emojisToDownload = [];
 
@@ -87,7 +87,7 @@ var loadEmojis = function(callback){
         var options = {
             url: url,
             headers: {
-                'User-Agent': 'gitmoji'
+                'User-Agent': 'scrumoji'
             }
         };
 

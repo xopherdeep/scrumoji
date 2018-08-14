@@ -1,11 +1,11 @@
 {
-  "name": "gitmoji",
+  "name": "scrumoji",
   "version": "1.0.0",
-  "description": "An emoji guide for your commit messages",
+  "description": "An emoji guide for your agile communication",
   "main": "index.js",
   "scripts": {
-    "jsonvalidate": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
-    "contributors": "curl https://api.github.com/repos/carloscuesta/gitmoji/contributors -o ./src/data/contributors.json",
+    "jsonvalidate": "jsonlint ./src/data/scrumojis.json -V ./src/data/schema.json",
+    "contributors": "curl https://api.github.com/repos/oschrenk/scrumoji/contributors -o ./src/data/contributors.json",
     "build": "gulp build",
     "deploy": "gulp deploy",
     "start": "npm run contributors && gulp",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carloscuesta/gitmoji.git"
+    "url": "git+https://github.com/oschrenk/scrumoji.git"
   },
-  "author": "Carlos Cuesta",
+  "author": "Oliver Schrenk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/carloscuesta/gitmoji/issues"
+    "url": "https://github.com/oschrenk/scrumoji/issues"
   },
   "pugLintConfig": {
     "disallowHtmlText": true,
@@ -32,7 +32,7 @@
       "es2015"
     ]
   },
-  "homepage": "https://github.com/carloscuesta/gitmoji#readme",
+  "homepage": "https://github.com/oschrenk/scrumoji#readme",
   "dependencies": {
     "async": "^2.1.2",
     "gulp": "^3.9.1",

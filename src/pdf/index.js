@@ -46,7 +46,7 @@ function generatePDF() {
     var doc = new PDFDocument;
     doc.pipe(fs.createWriteStream(__root+'dist/pdf/cheatsheet.pdf'));
 
-    doc.fontSize(32).text('Gitmoji Cheatsheet', 40, 40);
+    doc.fontSize(32).text('Scrumoji Cheatsheet', 40, 40);
 
     for (var i = 0; i < emojiList.length; i++) {
         var emoji = emojiList[i];

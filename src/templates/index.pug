@@ -1,8 +1,8 @@
 doctype html
 html
 	head
-		title gitmoji | An emoji guide for your commit messages
-		link(rel="canonical", href="https://gitmoji.carloscuesta.me")
+		title scrumoji | An emoji guide for your agile communication
+		link(rel="canonical", href="http://scrumoji.org")
 		style
 			include ../../dist/css/style.css
 		include _includes/_meta.pug
@@ -10,29 +10,29 @@ html
 		include _includes/_icons.pug
 		include _includes/_nav.pug
 		header.header
-			include ../images/gitmoji.svg
-			h2 An emoji guide for your commit messages
+			include ../images/scrumoji.svg
+			h2 An emoji guide for your agile communication
 			div.header-buttons
-				a.btn.btn-pink(href="https://github.com/carloscuesta/gitmoji/")
+				a.btn.btn-pink(href="https://github.com/oschrenk/scrumoji/")
 					svg.icon.icon-star
 						use(xlink:href='#icon-star')
 					| GitHub
-				a.btn.btn-pink(href="https://twitter.com/intent/tweet?text=gitmoji%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit%20messages%20by%20%40crloscuesta%20%F0%9F%98%8D%F0%9F%98%9C&url=https://gitmoji.carloscuesta.me", target="_blank")
+				a.btn.btn-pink(href="https://twitter.com/intent/tweet?text=scrumoji%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit%20messages%20by%20%40oschrenk%20%F0%9F%98%8D%F0%9F%98%9C&url=https://scrumoji.org", target="_blank")
 					svg.icon.icon-twitter
 						use(xlink:href='#icon-twitter')
 					| Tweet
 		main.wrap
-			.row.center-xs#gitmoji-list
-				each gitmoji in emojis.gitmojis
+			.row.center-xs#scrumoji-list
+				each scrumoji in emojis.scrumojis
 					article.emoji.col-xs-12.col-sm-6.col-md-3
 						.emoji-card
-							header(class=gitmoji.name+' emoji-header')
-								span(data-clipboard-text=gitmoji.code).emoji-icon.gitmoji=gitmoji.emoji
+							header(class=scrumoji.name+' emoji-header')
+								span(data-clipboard-text=scrumoji.code).emoji-icon.scrumoji=scrumoji.emoji
 							.emoji-info
-								code=gitmoji.code
-								p=gitmoji.description
+								code=scrumoji.code
+								p=scrumoji.description
 		include _includes/_footer.pug
-	script(src='//cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js')
+	script(src='https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js')
 	script
 		include ../scripts/clipboard.js
 		include ../scripts/main.js

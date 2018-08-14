@@ -6,7 +6,7 @@ import pug from 'gulp-pug'
 import pugLint from 'gulp-pug-lint'
 import browserSync from 'browser-sync'
 import plumber from 'gulp-plumber'
-import gitmojis from './src/data/gitmojis.json'
+import scrumojis from './src/data/scrumojis.json'
 import contributors from './src/data/contributors.json'
 import ghPages from 'gulp-gh-pages'
 
@@ -38,7 +38,7 @@ gulp.task('templates', ['styles'], () => {
     .pipe(pugLint())
     .pipe(plumber({}))
     .pipe(pug({
-      locals: { 'emojis': gitmojis, 'contributors': contributors }
+      locals: { 'emojis': scrumojis, 'contributors': contributors }
     }))
     .pipe(gulp.dest(routes.files.html))
     .pipe(browserSync.stream())
@@ -67,7 +67,7 @@ gulp.task('build', ['templates', 'styles'], () => {
 
 gulp.task('deploy', () => {
   return gulp.src(routes.files.deploy)
-    .pipe(ghPages({ message: ':rocket: gitmoji website' }))
+    .pipe(ghPages({ message: ':rocket: scrumoji website' }))
 })
 
 gulp.task('dev', ['serve'])

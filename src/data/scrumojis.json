@@ -1,0 +1,11 @@
+{
+	"scrumojis":[
+		{
+			"emoji":"🏃",
+			"entity":"&#127939;",
+			"code":":runner:",
+			"description":"Sprint",
+			"name":"runner"
+		}
+	]
+}
