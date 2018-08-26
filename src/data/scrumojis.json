@@ -5,7 +5,140 @@
 			"entity":"&#127939;",
 			"code":":runner:",
 			"description":"Sprint",
-			"name":"runner"
+			"name":"Sprint"
+		},
+		{
+			"emoji":"📆",
+			"entity":"&#128198;",
+			"code":":calendar:",
+			"description":"Planning",
+			"name":"Planning"
+		},
+		{
+			"emoji":"🎥",
+			"entity":"&#127909;",
+			"code":":movie_camera:",
+			"description":"Review",
+			"name":"Review"
+		},
+		{
+			"emoji":"🔎",
+			"entity":"&#128270;",
+			"code":":mag_right:",
+			"description":"Refinement or Grooming",
+			"name":"Refinement"
+		},
+		{
+			"emoji":"👩‍⚕️",
+			"entity":"&#x1F469;&#x200D;&#x2695;&#xFE0F;",
+			"code":":woman_health_worker:",
+			"description":"Retrospective",
+			"name":"Retrospective"
+		},
+		{
+			"emoji":"🤼",
+			"entity":"&#129340;",
+			"code":":movie_camera:",
+			"description":"Standup",
+			"name":"Standup"
+		},
+		{
+			"emoji":"📇",
+			"entity":"&#128199;",
+			"code":":card_index:",
+			"description":"User Story",
+			"name":"User Story"
+		},
+		{
+			"emoji":"🐛",
+			"entity":"&#128027;",
+			"code":":bug:",
+			"description":"Bug",
+			"name":"Bug"
+		},
+		{
+			"emoji":"🔬",
+			"entity":"&#128300;",
+			"code":":microscope:",
+			"description":"Technical Story",
+			"name":"Technical Story"
+		},
+		{
+			"emoji":"💸",
+			"entity":"&#128184;",
+			"code":":money_with_wings:",
+			"description":"Business Value",
+			"name":"Business Value"
+		},
+		{
+			"emoji":"📈",
+			"entity":"&#;",
+			"code":":chart_with_upwards_trend:",
+			"description":"Burn Up Chart",
+			"name":"Burn Up Chart"
+		},
+		{
+			"emoji":"📉",
+			"entity":"&#;",
+			"code":":chart_with_downwards_trencalendard:",
+			"description":"Burn Down Chart",
+			"name":"Burn Down Chart"
+		},
+		{
+			"emoji":"✅",
+			"entity":"&#9989;",
+			"code":":white_check_mark:",
+			"description":"Definition of Done",
+			"name":"Definition of Done"
+		},
+		{
+			"emoji":"📝",
+			"entity":"&#128221;",
+			"code":":memo:",
+			"description":"Definition of Ready",
+			"name":"Definition of Ready"
+		},
+		{
+			"emoji":"🗃,
+			"entity":"&#128451;",
+			"code":":card_file_box:",
+			"description":"Product Backlog",
+			"name":"Product Backlog"
+		},
+		{
+			"emoji":"👩‍💻",
+			"entity":"&#128105;&#8205;&#128187;",
+			"code":":woman_technologist:",
+			"description":"Product Owner",
+			"name":"Product Owner"
+		},
+		{
+			"emoji":"👩‍🚀",
+			"entity":"&#128105;&#8205;&#128640;",
+			"code":":woman_astronaut:",
+			"description":"Scrum Master",
+			"name":"Scrum Master"
+		},
+		{
+			"emoji":"👩‍💼",
+			"entity":"&#128105;&#8205;&#128188;",
+			"code":":woman_office_worker:",
+			"description":"Stakeholder",
+			"name":"Stakeholder"
+		},
+		{
+			"emoji":"🐔",
+			"entity":"&#128020;",
+			"code":":chicken:",
+			"description":"Chicken",
+			"name":"Chicken"
+		},
+		{
+			"emoji":"🐷",
+			"entity":"&#128055;",
+			"code":":pig:",
+			"description":"Pig",
+			"name":"Pig"
 		}
 	]
 }
