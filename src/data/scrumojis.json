@@ -36,9 +36,9 @@
 			"name":"Retrospective"
 		},
 		{
-			"emoji":"🤼",
-			"entity":"&#129340;",
-			"code":":movie_camera:",
+			"emoji":"🙋",
+			"entity":"&#128587;&#8205;&#9792;&#65039;",
+			"code":":raising_hand:",
 			"description":"Standup",
 			"name":"Standup"
 		},
