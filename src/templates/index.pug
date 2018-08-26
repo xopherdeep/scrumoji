@@ -25,12 +25,12 @@ html
 			.row.center-xs#scrumoji-list
 				each scrumoji in emojis.scrumojis
 					article.emoji.col-xs-12.col-sm-6.col-md-3
-						.emoji-card
-							header(class=scrumoji.name+' emoji-header')
-								span(data-clipboard-text=scrumoji.emoji).emoji-icon.scrumoji=scrumoji.emoji
+						.emoji-card(data-clipboard-text=scrumoji.emoji).scrumoji
+							header.emoji-header
+								span.emoji-icon=scrumoji.emoji
 							.emoji-info
+								h2=scrumoji.name
 								code=scrumoji.code
-								p=scrumoji.description
 		include _includes/_footer.pug
 	script(src='https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js')
 	script
