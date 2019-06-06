@@ -64,6 +64,13 @@
 			"name":"Technical Story"
 		},
 		{
+			"emoji":"⛰",
+			"entity":"&#9968;",
+			"code":":mountain:",
+			"description":"Epic",
+			"name":"Epic"
+		},
+		{
 			"emoji":"💸",
 			"entity":"&#128184;",
 			"code":":money_with_wings:",
