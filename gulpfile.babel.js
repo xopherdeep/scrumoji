@@ -33,17 +33,6 @@ const routes = {
   }
 }
 
-gulp.task('templates', ['styles'], () => {
-  return gulp.src([routes.templates.pug, '!' + routes.templates._pug])
-    .pipe(pugLint())
-    .pipe(plumber({}))
-    .pipe(pug({
-      locals: { 'emojis': scrumojis, 'contributors': contributors }
-    }))
-    .pipe(gulp.dest(routes.files.html))
-    .pipe(browserSync.stream())
-})
-
 gulp.task('styles', () => {
   return gulp.src(routes.styles.scss)
     .pipe(plumber({}))
@@ -52,17 +41,31 @@ gulp.task('styles', () => {
     .pipe(browserSync.stream())
 })
 
-gulp.task('serve', ['styles', 'templates'], () => {
-  browserSync.init({
-    server: `${baseDirs.dist}`
+gulp.task('templates',
+  gulp.series('styles', () => {
+    return gulp.src([routes.templates.pug, '!' + routes.templates._pug])
+      .pipe(pugLint())
+      .pipe(plumber({}))
+      .pipe(pug({
+        locals: { 'emojis': scrumojis, 'contributors': contributors }
+      }))
+      .pipe(gulp.dest(routes.files.html))
+      .pipe(browserSync.stream())
+  }))
+
+gulp.task('serve',
+  gulp.parallel('styles', 'templates'), () => {
+    browserSync.init({
+      server: `${baseDirs.dist}`
+    })
+
+    gulp.watch([routes.templates.pug, routes.templates._pug], ['templates'])
+    gulp.watch([routes.styles.scss, routes.styles._scss], ['styles'])
   })
 
-  gulp.watch([routes.templates.pug, routes.templates._pug], ['templates'])
-  gulp.watch([routes.styles.scss, routes.styles._scss], ['styles'])
-})
-
-gulp.task('build', ['templates', 'styles'], () => {
-  gulp.src([routes.files.staticSrc]).pipe(gulp.dest(routes.files.staticDist))
+gulp.task('build',
+  gulp.parallel('styles','templates'), () => {
+    gulp.src([routes.files.staticSrc]).pipe(gulp.dest(routes.files.staticDist))
 })
 
 gulp.task('deploy', () => {
@@ -70,7 +73,7 @@ gulp.task('deploy', () => {
     .pipe(ghPages({ message: ':rocket: scrumoji website' }))
 })
 
-gulp.task('dev', ['serve'])
+gulp.task('dev', gulp.series('serve'))
 
 gulp.task('default', () => {
   gulp.start('dev')
