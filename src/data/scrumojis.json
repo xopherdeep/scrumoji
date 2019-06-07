@@ -64,6 +64,13 @@
 			"name":"Technical Story"
 		},
 		{
+			"emoji":"🔎",
+			"entity":"&#128270;",
+			"code":":mag_right:",
+			"description":"Spike",
+			"name":"Spike"
+		},
+		{
 			"emoji":"⛰",
 			"entity":"&#9968;",
 			"code":":mountain:",
