@@ -2,3 +2,5 @@
 dist/
 node_modules/
 .publish/
+src/data/contributors-1.json
+src/data/contributors-2.json

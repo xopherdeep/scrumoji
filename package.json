@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "jsonvalidate": "jsonlint ./src/data/scrumojis.json -V ./src/data/schema.json",
-    "contributors": "curl https://api.github.com/repos/oschrenk/scrumoji/contributors -o ./src/data/contributors.json",
+    "contributors": "curl https://api.github.com/repos/oschrenk/scrumoji/contributors?page=1 -o ./src/data/contributors-1.json && curl https://api.github.com/repos/oschrenk/scrumoji/contributors?page=2 -o ./src/data/contributors-2.json && jq -s '.[0] + .[1]' ./src/data/contributors-1.json ./src/data/contributors-2.json > ./src/data/contributors.json",
     "build": "gulp build",
     "deploy": "gulp deploy",
     "start": "npm run contributors && gulp",
