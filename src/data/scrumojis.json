@@ -113,6 +113,13 @@
 			"name":"Definition of Ready"
 		},
 		{
+			"emoji":"📜",
+			"entity":"&#128220;",
+			"code":":scroll:",
+			"description":"Acceptance Criteria",
+			"name":"Acceptance Criteria"
+		},
+		{
 			"emoji":"🗃",
 			"entity":"&#128451;",
 			"code":":card_file_box:",
