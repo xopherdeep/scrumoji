@@ -120,6 +120,20 @@
 			"name":"Acceptance Criteria"
 		},
 		{
+			"emoji":"🎨",
+			"entity":"&#127912;",
+			"code":":artist_palette:",
+			"description":"UX",
+			"name":"UX"
+		},
+		{
+			"emoji":"🔧",
+			"entity":"&#128295;",
+			"code":":wrench:",
+			"description":"QA",
+			"name":"QA"
+		},
+		{
 			"emoji":"🗃",
 			"entity":"&#128451;",
 			"code":":card_file_box:",
@@ -139,6 +153,20 @@
 			"code":":woman_astronaut:",
 			"description":"Scrum Master",
 			"name":"Scrum Master"
+		},
+		{
+			"emoji":"👩‍🎨",
+			"entity":"&#128105;&#8205;&#127912;",
+			"code":":woman_artist:",
+			"description":"UX Designer",
+			"name":"UX Designer"
+		},
+		{
+			"emoji":"👩‍🔧",
+			"entity":"&#128105;&#8205;&#128295;",
+			"code":":woman_mechanic:",
+			"description":"QA Engineer",
+			"name":"QA Engineer"
 		},
 		{
 			"emoji":"👩‍💼",
