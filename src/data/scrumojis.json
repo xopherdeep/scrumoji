@@ -85,6 +85,13 @@
 			"name":"Spike"
 		},
 		{
+			"emoji":"⛳",
+			"entity":"&#9971;",
+			"code":":golf:",
+			"description":"Sprint goal",
+			"name":"Sprint goal"
+		},
+		{
 			"emoji":"⛰",
 			"entity":"&#9968;",
 			"code":":mountain:",
