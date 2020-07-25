@@ -239,6 +239,14 @@
 			"name":"Timebox"
 		},
 		{
+			"emoji":"👕",
+			"entity":"&#128085;",
+			"code":":shirt:",
+			"description":"Estimate",
+			"name":"Estimate"
+		},
+
+		{
 			"emoji": "🛡",
 			"entity":"&#128737;",
 			"code":":shield:",
