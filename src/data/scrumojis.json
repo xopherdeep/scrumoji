@@ -252,6 +252,13 @@
 			"description":"Order",
 			"name":"Order"
 		},
+    {
+			"emoji":"💎",
+			"entity":"&#128142;",
+			"code":":gem:",
+			"description":"Action Point",
+			"name":"Action Point"
+		},
 		{
 			"emoji":"Metric",
 			"entity":"&#128207;",
