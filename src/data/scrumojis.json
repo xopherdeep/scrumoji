@@ -195,6 +195,13 @@
 			"code":":gift:",
 			"description":"Deliverable",
 			"name":"Deliverable"
+		},
+		{
+			"emoji":"⌛",
+			"entity":"&#8987;",
+			"code":":hourglass:",
+			"description":"Timebox",
+			"name":"Timebox"
 		}
 	]
 }
