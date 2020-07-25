@@ -279,6 +279,13 @@
 			"code":":crystal_ball:",
 			"description":"Predictability",
 			"name":"Predictability"
+		},
+		{
+			"emoji": "🧪",
+			"entity":"&#129514;",
+			"code":":test_tube:",
+			"description":"Empirical process",
+			"name":"Empirical process"
 		}
 	]
 }
