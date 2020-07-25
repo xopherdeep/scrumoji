@@ -57,11 +57,11 @@
 			"name":"Bug"
 		},
 		{
-			"emoji":"🔬",
-			"entity":"&#128300;",
-			"code":":microscope:",
-			"description":"Technical Story",
-			"name":"Technical Story"
+			"emoji":"⚙️",
+			"entity":"&#9881;",
+			"code":":gear:",
+			"description":"Task",
+			"name":"Task"
 		},
 		{
 			"emoji":"🔎",
