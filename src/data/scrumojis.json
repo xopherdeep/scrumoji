@@ -43,6 +43,20 @@
 			"name":"Daily Scrum"
 		},
 		{
+			"emoji":"🗂",
+			"entity":"&#128450;",
+			"code":":card_index_dividers:",
+			"description":"Sprint Backlog",
+			"name":"Sprint Backlog"
+		},
+		{
+			"emoji":"🗃",
+			"entity":"&#128451;",
+			"code":":card_file_box:",
+			"description":"Product Backlog",
+			"name":"Product Backlog"
+		},
+		{
 			"emoji":"📇",
 			"entity":"&#128199;",
 			"code":":card_index:",
@@ -132,13 +146,6 @@
 			"code":":wrench:",
 			"description":"QA",
 			"name":"QA"
-		},
-		{
-			"emoji":"🗃",
-			"entity":"&#128451;",
-			"code":":card_file_box:",
-			"description":"Product Backlog",
-			"name":"Product Backlog"
 		},
 		{
 			"emoji":"👩‍💻",
