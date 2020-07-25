@@ -99,6 +99,13 @@
 			"name":"Epic"
 		},
 		{
+			"emoji":"📦",
+			"entity":"&#9968;",
+			"code":":package:",
+			"description":"Product Increment",
+			"name":"Product Increment"
+		},
+		{
 			"emoji":"🏆",
 			"entity":"&#127942;",
 			"code":":trophy:",
