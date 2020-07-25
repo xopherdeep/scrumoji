@@ -188,6 +188,13 @@
 			"code":":pig:",
 			"description":"Pig",
 			"name":"Pig"
+		},
+		{
+			"emoji":"🎁",
+			"entity":"&#127873;",
+			"code":":gift:",
+			"description":"Deliverable",
+			"name":"Deliverable"
 		}
 	]
 }
