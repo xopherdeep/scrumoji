@@ -209,6 +209,13 @@
 			"code":":shield:",
 			"description":"Risk Control",
 			"name":"Risk Control"
+		},
+		{
+			"emoji": "🔮",
+			"entity":"&#128302;",
+			"code":":crystal_ball:",
+			"description":"Predictability",
+			"name":"Predictability"
 		}
 	]
 }
