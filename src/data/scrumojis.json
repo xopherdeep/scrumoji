@@ -246,7 +246,14 @@
 			"name":"Estimate"
 		},
 		{
-			"emoji":"📏",
+			"emoji":"🔢",
+			"entity":"&#128290;",
+			"code":":1234:",
+			"description":"Order",
+			"name":"Order"
+		},
+		{
+			"emoji":"Metric",
 			"entity":"&#128207;",
 			"code":":straight_ruler:",
 			"description":"Metric",
