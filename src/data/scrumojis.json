@@ -176,6 +176,13 @@
 			"name":"Stakeholder"
 		},
 		{
+			"emoji": "🤹‍♀️",
+			"entity":"&#129337;",
+			"code":":woman_juggling:",
+			"description":"Cross-functional",
+			"name":"Cross-functional"
+		},
+		{
 			"emoji":"🐔",
 			"entity":"&#128020;",
 			"code":":chicken:",
