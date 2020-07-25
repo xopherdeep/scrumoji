@@ -202,6 +202,13 @@
 			"code":":hourglass:",
 			"description":"Timebox",
 			"name":"Timebox"
+		},
+		{
+			"emoji": "🛡",
+			"entity":"&#128737;",
+			"code":":shield:",
+			"description":"Risk Control",
+			"name":"Risk Control"
 		}
 	]
 }
