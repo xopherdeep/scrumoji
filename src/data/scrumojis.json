@@ -169,6 +169,13 @@
 			"name":"Scrum Master"
 		},
 		{
+			"emoji":"👷‍♀️",
+			"entity":"&#128119;&#8205;&#127979;",
+			"code":":constructor_worker_woman:",
+			"description":"Development Team",
+			"name":"Development Team"
+		},
+		{
 			"emoji":"👩‍🎨",
 			"entity":"&#128105;&#8205;&#127912;",
 			"code":":woman_artist:",
