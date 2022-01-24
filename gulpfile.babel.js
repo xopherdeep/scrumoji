@@ -1,7 +1,8 @@
 'use strict'
 
 import gulp from 'gulp'
-import sass from 'gulp-sass'
+import gulpSass from 'gulp-sass';
+import dartSass from 'sass';
 import pug from 'gulp-pug'
 import pugLint from 'gulp-pug-lint'
 import browserSync from 'browser-sync'
@@ -9,6 +10,8 @@ import plumber from 'gulp-plumber'
 import scrumojis from './src/data/scrumojis.json'
 import contributors from './src/data/contributors.json'
 import ghPages from 'gulp-gh-pages'
+
+const sass = gulpSass(dartSass);
 
 const baseDirs = {
   src: 'src/',
