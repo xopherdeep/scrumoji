@@ -43,14 +43,14 @@
 			"name":"Daily Scrum"
 		},
 		{
-			"emoji":"🗂",
+			"emoji":"🗂️",
 			"entity":"&#128450;",
 			"code":":card_index_dividers:",
 			"description":"Sprint Backlog",
 			"name":"Sprint Backlog"
 		},
 		{
-			"emoji":"🗃",
+			"emoji":"🗃️",
 			"entity":"&#128451;",
 			"code":":card_file_box:",
 			"description":"Product Backlog",
@@ -92,7 +92,7 @@
 			"name":"Sprint goal"
 		},
 		{
-			"emoji":"⛰",
+			"emoji":"⛰️",
 			"entity":"&#9968;",
 			"code":":mountain:",
 			"description":"Epic",
@@ -267,7 +267,7 @@
 			"name":"Metric"
 		},
 		{
-			"emoji": "🛡",
+			"emoji": "🛡️",
 			"entity":"&#128737;",
 			"code":":shield:",
 			"description":"Risk Control",
